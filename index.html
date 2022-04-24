@@ -5,10 +5,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fluxo de caixa</title>
+
+    <style>
+        #form {
+            width: 50%;
+            padding: 10px;
+            background-color: rgb(227, 237, 253);
+            border-radius: 12px;
+            margin-left: 200px;
+        }
+
+        #fi {
+            border-radius: 12x;
+        }
+
+        #result {
+            margin-left: 200px;
+            margin-top: 20px;
+            background-color: rgb(220, 224, 230);
+            width: 50%;
+            padding: 10px;
+            border-radius: 12px;
+        }
+    </style>
 </head>
 
 <body>
+    <div id="form1">
+        <form action="" id="form">
+            <fieldset id="fi">
+                <legend>Informações</legend>
+
+                <label for="rece">Receita</label><br>
+                <input id="rece" type="number" name="receita" value="submit" placeholder="Digite o valor de receita"
+                    maxlength="9"> <br><br>
+
+                <label for="desp">Despesa</label><br>
+                <input id="desp" type="number" name="despesa" value="submit" placeholder="Digite o valor de despesa"
+                    maxlength="9">
+                <br><br>
+                <button>Calcular</button>
+            </fieldset>
+        </form>
+    </div>
+    <div id="result">
+        <p>Resultado</p>
+    </div>
     <script src="script.js"></script>
 </body>
 
